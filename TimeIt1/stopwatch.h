@@ -1,7 +1,7 @@
 #ifndef STOPWATCH.HPP
 #define STOPWATCH.CPP
 
-class STOPWATCH();
+class STOPWATCH {};
 
 
 #endif // STOPWATCH.HPP

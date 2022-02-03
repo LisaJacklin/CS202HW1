@@ -14,9 +14,6 @@ using std::endl;
 /*
 Requirements:
 
-use this to test search, binary_search, 
-and two other algorithms in STLa
-measure time for each algorithm at least 5 times in ranges:
 10,100,1K,10K, 100K, 1M, 10M, 100M, 1B
 
 */
@@ -27,13 +24,16 @@ measure time for each algorithm at least 5 times in ranges:
 //the program has to search. 
 std::random_device rd;
 std::mt19937 gen(rd());
+//fairly sure the distribution is what needs to change based on each of the searches
 std::uniform_int_distribution<> dis(0);
 
 
 
 int main()
 {
-  
+	//Test search
+
+	//Test binary search
 
 
 }

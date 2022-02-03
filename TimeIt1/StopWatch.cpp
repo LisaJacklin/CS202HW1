@@ -17,16 +17,20 @@ public:
     StopWatch() {
         //begins the stopwatch
         _start = std::chrono::system_clock::now();
+       
+        std::cout << " timer began\n";
     }
 
     ~StopWatch() {
         _end = std::chrono::system_clock::now();
         //measures the time between start and finish as a double
-        std::chrono::duration<double> elapsed_seconds = _end - _start;
+       std::chrono::duration<double> elapsed_seconds = _end - _start;
+        std::cout << " Process time: " << std::chrono::milliseconds(1).count() <<" ms\n";
+        std::cout << "Process time: " <<  elapsed_seconds.count() << "s\n";
 
     }
 
-    //start stop constructor
+   
     //two additional methods for seconds and milliseconds.
 
 
